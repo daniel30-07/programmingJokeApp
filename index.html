@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Jokes</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="columns pt-6">
+            <div class="column is-half is-offset-one-quarter">
+                <div class="card is-shady" >
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="coder.jpg" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content has-text-centered">
+                            <h4>Programming Jokes</h4>
+                            <button class="button is-link modal-button" data-target="modal-card">Get Another Joke</button>
+                            <ul class="mt-6" style="list-style-type: none;" id='jokes'></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
